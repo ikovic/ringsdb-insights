@@ -4,10 +4,10 @@ pageTitle: RingsDB Insights
 {% extends "layouts/base.njk" %}
 
 {% block main %}
-  Here we go. Does it work?
-  <form onSubmit=>
+  <form id="deckForm" onSubmit=>
     <label for="deckIdInput">Enter your published deck URL</label>
     <input type="text" id="deckIdInput"/>
     <button type="submit">Go</button>
   </form>
+  <div id="insights"/>
 {% endblock %}
